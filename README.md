@@ -15,3 +15,12 @@ mkdir -p ~/.config/ulauncher/user-themes
 git clone https://github.com/kayozxo/ulauncher-liquid-glass.git \
   ~/.config/ulauncher/user-themes/liquid-glass
 ```
+
+## How to achieve blur
+
+- To achieve true liquid glass finish, you need some amount of blur for the launcher.
+- But GTK doesn't support any blur filter through CSS.
+- Install [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
+- Apply the settings as follows:
+
+![Blur My Shell settings](image.png)
