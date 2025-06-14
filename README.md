@@ -16,7 +16,7 @@ git clone https://github.com/kayozxo/ulauncher-liquid-glass.git \
   ~/.config/ulauncher/user-themes/liquid-glass
 ```
 
-## How to achieve blur **GNOME ONLY**
+## How to achieve blur - **GNOME ONLY**
 
 - To achieve true liquid glass finish, you need some amount of blur for the launcher.
 - But GTK doesn't support any blur filter through CSS.
