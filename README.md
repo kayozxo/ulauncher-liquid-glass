@@ -4,7 +4,7 @@ A theme for Ulauncher based on macOS Tahoe Liquid Glass theme.
 
 ## Screenshot
 
-![Screenshot](static/screenshot.png)
+![Screenshot](static/new.png)
 
 ## Installation
 
@@ -23,4 +23,4 @@ git clone https://github.com/kayozxo/ulauncher-liquid-glass.git \
 - Install [Blur My Shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 - Apply the settings as follows:
 
-![Blur My Shell settings](static/image.png)
+![Blur My Shell settings](static/settings.png)
