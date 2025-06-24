@@ -4,7 +4,10 @@ A theme for Ulauncher based on macOS Tahoe Liquid Glass theme.
 
 ## Screenshot
 
-![Screenshot](static/new.png)
+<div>
+  <img src="static/liquid-glass-light.png" alt="Light Screenshot" width="45%"/>
+  <img src="static/liquid-glass-dark.png" alt="Dark Screenshot" width="45%"/>
+</div>
 
 ## Installation
 
