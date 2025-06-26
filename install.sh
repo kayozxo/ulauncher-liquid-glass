@@ -15,10 +15,17 @@ echo -e "${CYAN}${BOLD}🚀 Starting Liquid Glass Theme Installer...${NC}"
 echo
 
 # === Ulauncher Check ===
+read -p "$(echo -e "${CYAN}❓ Do you want to install Ulauncher themes? (yes/no): ${NC}")" answer
+if [[ "$answer" != "yes" && "$answer" != "y" ]]; then
+    echo -e "${YELLOW}⚠️ Skipping Ulauncher theme installation.${NC}"
+    return 0 2>/dev/null || exit 0
+fi
+
+# === Ulauncher Check ===
 if [ ! -d "$HOME/.config/ulauncher" ]; then
     echo -e "${RED}✗ Ulauncher is not installed.${NC}"
     echo -e "${YELLOW}💡 Please install it from: ${UNDERLINE}https://ulauncher.io/#Download${NC}"
-    exit 1
+    return 0 2>/dev/null || exit 0
 fi
 
 echo -e "${GREEN}✓ Ulauncher is installed.${NC}"
